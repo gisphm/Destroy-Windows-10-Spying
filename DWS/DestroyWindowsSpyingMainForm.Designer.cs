@@ -107,9 +107,9 @@ namespace DWS_Lite
             this.tabPageReadMe.SuspendLayout();
             this.tabPageLicense.SuspendLayout();
             this.SuspendLayout();
-            // 
+            //
             // FormTabsControl
-            // 
+            //
             this.FormTabsControl.Controls.Add(this.tabPageMain);
             this.FormTabsControl.Controls.Add(this.tabPageSettings);
             this.FormTabsControl.Controls.Add(this.tabPageUtilites);
@@ -122,9 +122,9 @@ namespace DWS_Lite
             this.FormTabsControl.SelectedIndex = 0;
             this.FormTabsControl.Size = new System.Drawing.Size(453, 426);
             this.FormTabsControl.TabIndex = 0;
-            // 
+            //
             // tabPageMain
-            // 
+            //
             this.tabPageMain.BackColor = System.Drawing.Color.White;
             this.tabPageMain.BackgroundImage = global::DWS_Lite.Properties.Resources.BGProgImg;
             this.tabPageMain.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -139,9 +139,9 @@ namespace DWS_Lite
             this.tabPageMain.Size = new System.Drawing.Size(445, 400);
             this.tabPageMain.TabIndex = 0;
             this.tabPageMain.Text = "Main";
-            // 
+            //
             // btnDestroyWindows78Spy
-            // 
+            //
             this.btnDestroyWindows78Spy.BackColor = System.Drawing.SystemColors.Control;
             this.btnDestroyWindows78Spy.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.btnDestroyWindows78Spy.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -153,9 +153,9 @@ namespace DWS_Lite
             this.btnDestroyWindows78Spy.UseVisualStyleBackColor = false;
             this.btnDestroyWindows78Spy.Visible = false;
             this.btnDestroyWindows78Spy.Click += new System.EventHandler(this.btnDestroyWindows78Spy_Click);
-            // 
+            //
             // LogOutputTextBox
-            // 
+            //
             this.LogOutputTextBox.BackColor = System.Drawing.Color.Blue;
             this.LogOutputTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.LogOutputTextBox.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -167,9 +167,9 @@ namespace DWS_Lite
             this.LogOutputTextBox.TabIndex = 3;
             this.LogOutputTextBox.Text = "";
             this.LogOutputTextBox.TextChanged += new System.EventHandler(this.LogOutputTextBox_TextChanged);
-            // 
+            //
             // StatusCommandsLable
-            // 
+            //
             this.StatusCommandsLable.BackColor = System.Drawing.Color.Transparent;
             this.StatusCommandsLable.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.StatusCommandsLable.Location = new System.Drawing.Point(8, 88);
@@ -178,17 +178,17 @@ namespace DWS_Lite
             this.StatusCommandsLable.TabIndex = 2;
             this.StatusCommandsLable.Text = "Destroy Windows 10 Spying";
             this.StatusCommandsLable.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
+            //
             // ProgressBarStatus
-            // 
+            //
             this.ProgressBarStatus.BackColor = System.Drawing.SystemColors.Control;
             this.ProgressBarStatus.Location = new System.Drawing.Point(8, 62);
             this.ProgressBarStatus.Name = "ProgressBarStatus";
             this.ProgressBarStatus.Size = new System.Drawing.Size(429, 23);
             this.ProgressBarStatus.TabIndex = 1;
-            // 
+            //
             // btnDestroyWindowsSpying
-            // 
+            //
             this.btnDestroyWindowsSpying.BackColor = System.Drawing.SystemColors.Control;
             this.btnDestroyWindowsSpying.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.btnDestroyWindowsSpying.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -199,9 +199,9 @@ namespace DWS_Lite
             this.btnDestroyWindowsSpying.Text = "Destroy Windows 10 Spying";
             this.btnDestroyWindowsSpying.UseVisualStyleBackColor = false;
             this.btnDestroyWindowsSpying.Click += new System.EventHandler(this.btnDestroyWindowsSpying_Click);
-            // 
+            //
             // tabPageSettings
-            // 
+            //
             this.tabPageSettings.BackColor = System.Drawing.Color.White;
             this.tabPageSettings.BackgroundImage = global::DWS_Lite.Properties.Resources.BGProgImg;
             this.tabPageSettings.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -232,9 +232,9 @@ namespace DWS_Lite
             this.tabPageSettings.Size = new System.Drawing.Size(445, 400);
             this.tabPageSettings.TabIndex = 1;
             this.tabPageSettings.Text = "Settings";
-            // 
+            //
             // btnProfessionalMode
-            // 
+            //
             this.btnProfessionalMode.AutoSize = true;
             this.btnProfessionalMode.ForeColor = System.Drawing.Color.Red;
             this.btnProfessionalMode.Location = new System.Drawing.Point(6, 371);
@@ -244,9 +244,9 @@ namespace DWS_Lite
             this.btnProfessionalMode.Text = "Professional mode";
             this.btnProfessionalMode.UseVisualStyleBackColor = true;
             this.btnProfessionalMode.CheckedChanged += new System.EventHandler(this.btnProfessionalMode_Click);
-            // 
+            //
             // labelInfoDeleteMetroApps
-            // 
+            //
             this.labelInfoDeleteMetroApps.AutoSize = true;
             this.labelInfoDeleteMetroApps.BackColor = System.Drawing.Color.Transparent;
             this.labelInfoDeleteMetroApps.ForeColor = System.Drawing.Color.Red;
@@ -255,9 +255,9 @@ namespace DWS_Lite
             this.labelInfoDeleteMetroApps.Size = new System.Drawing.Size(396, 13);
             this.labelInfoDeleteMetroApps.TabIndex = 20;
             this.labelInfoDeleteMetroApps.Text = "METRO applications are deleted permanently, without the possibility of recovery.";
-            // 
+            //
             // checkBoxDeleteAppXBOX
-            // 
+            //
             this.checkBoxDeleteAppXBOX.AutoSize = true;
             this.checkBoxDeleteAppXBOX.BackColor = System.Drawing.Color.Transparent;
             this.checkBoxDeleteAppXBOX.Checked = true;
@@ -270,9 +270,9 @@ namespace DWS_Lite
             this.checkBoxDeleteAppXBOX.TabIndex = 18;
             this.checkBoxDeleteAppXBOX.Text = "Delete XBoX";
             this.checkBoxDeleteAppXBOX.UseVisualStyleBackColor = false;
-            // 
+            //
             // checkBoxDeleteAppVoice
-            // 
+            //
             this.checkBoxDeleteAppVoice.AutoSize = true;
             this.checkBoxDeleteAppVoice.BackColor = System.Drawing.Color.Transparent;
             this.checkBoxDeleteAppVoice.Checked = true;
@@ -285,9 +285,9 @@ namespace DWS_Lite
             this.checkBoxDeleteAppVoice.TabIndex = 17;
             this.checkBoxDeleteAppVoice.Text = "Delete Voice Recorder";
             this.checkBoxDeleteAppVoice.UseVisualStyleBackColor = false;
-            // 
+            //
             // checkBoxDeleteAppSolit
-            // 
+            //
             this.checkBoxDeleteAppSolit.AutoSize = true;
             this.checkBoxDeleteAppSolit.BackColor = System.Drawing.Color.Transparent;
             this.checkBoxDeleteAppSolit.Checked = true;
@@ -300,9 +300,9 @@ namespace DWS_Lite
             this.checkBoxDeleteAppSolit.TabIndex = 16;
             this.checkBoxDeleteAppSolit.Text = "Delete Solitaire Collection";
             this.checkBoxDeleteAppSolit.UseVisualStyleBackColor = false;
-            // 
+            //
             // checkBoxDeleteAppPhotos
-            // 
+            //
             this.checkBoxDeleteAppPhotos.AutoSize = true;
             this.checkBoxDeleteAppPhotos.BackColor = System.Drawing.Color.Transparent;
             this.checkBoxDeleteAppPhotos.Checked = true;
@@ -315,9 +315,9 @@ namespace DWS_Lite
             this.checkBoxDeleteAppPhotos.TabIndex = 15;
             this.checkBoxDeleteAppPhotos.Text = "Delete Photos";
             this.checkBoxDeleteAppPhotos.UseVisualStyleBackColor = false;
-            // 
+            //
             // checkBoxDeleteAppPhone
-            // 
+            //
             this.checkBoxDeleteAppPhone.AutoSize = true;
             this.checkBoxDeleteAppPhone.BackColor = System.Drawing.Color.Transparent;
             this.checkBoxDeleteAppPhone.Checked = true;
@@ -330,9 +330,9 @@ namespace DWS_Lite
             this.checkBoxDeleteAppPhone.TabIndex = 14;
             this.checkBoxDeleteAppPhone.Text = "Delete Phone Companion";
             this.checkBoxDeleteAppPhone.UseVisualStyleBackColor = false;
-            // 
+            //
             // checkBoxDeleteAppPeopleOneNote
-            // 
+            //
             this.checkBoxDeleteAppPeopleOneNote.AutoSize = true;
             this.checkBoxDeleteAppPeopleOneNote.BackColor = System.Drawing.Color.Transparent;
             this.checkBoxDeleteAppPeopleOneNote.Checked = true;
@@ -345,9 +345,9 @@ namespace DWS_Lite
             this.checkBoxDeleteAppPeopleOneNote.TabIndex = 13;
             this.checkBoxDeleteAppPeopleOneNote.Text = "Delete People and OneNote";
             this.checkBoxDeleteAppPeopleOneNote.UseVisualStyleBackColor = false;
-            // 
+            //
             // checkBoxDeleteAppZune
-            // 
+            //
             this.checkBoxDeleteAppZune.AutoSize = true;
             this.checkBoxDeleteAppZune.BackColor = System.Drawing.Color.Transparent;
             this.checkBoxDeleteAppZune.Checked = true;
@@ -360,9 +360,9 @@ namespace DWS_Lite
             this.checkBoxDeleteAppZune.TabIndex = 12;
             this.checkBoxDeleteAppZune.Text = "Delete Groove Music and Film TV ";
             this.checkBoxDeleteAppZune.UseVisualStyleBackColor = false;
-            // 
+            //
             // checkBoxDeleteAppBing
-            // 
+            //
             this.checkBoxDeleteAppBing.AutoSize = true;
             this.checkBoxDeleteAppBing.BackColor = System.Drawing.Color.Transparent;
             this.checkBoxDeleteAppBing.Checked = true;
@@ -375,9 +375,9 @@ namespace DWS_Lite
             this.checkBoxDeleteAppBing.TabIndex = 11;
             this.checkBoxDeleteAppBing.Text = "Delete Money, Sports, News and Weather";
             this.checkBoxDeleteAppBing.UseVisualStyleBackColor = false;
-            // 
+            //
             // checkBoxDeleteMailCalendarMaps
-            // 
+            //
             this.checkBoxDeleteMailCalendarMaps.AutoSize = true;
             this.checkBoxDeleteMailCalendarMaps.BackColor = System.Drawing.Color.Transparent;
             this.checkBoxDeleteMailCalendarMaps.Checked = true;
@@ -390,9 +390,9 @@ namespace DWS_Lite
             this.checkBoxDeleteMailCalendarMaps.TabIndex = 10;
             this.checkBoxDeleteMailCalendarMaps.Text = "Delete Mail,Calendar and Maps";
             this.checkBoxDeleteMailCalendarMaps.UseVisualStyleBackColor = false;
-            // 
+            //
             // checkBoxDeleteAppCamera
-            // 
+            //
             this.checkBoxDeleteAppCamera.AutoSize = true;
             this.checkBoxDeleteAppCamera.BackColor = System.Drawing.Color.Transparent;
             this.checkBoxDeleteAppCamera.Checked = true;
@@ -405,9 +405,9 @@ namespace DWS_Lite
             this.checkBoxDeleteAppCamera.TabIndex = 9;
             this.checkBoxDeleteAppCamera.Text = "Delete Camera";
             this.checkBoxDeleteAppCamera.UseVisualStyleBackColor = false;
-            // 
+            //
             // checkBoxDeleteApp3d
-            // 
+            //
             this.checkBoxDeleteApp3d.AutoSize = true;
             this.checkBoxDeleteApp3d.BackColor = System.Drawing.Color.Transparent;
             this.checkBoxDeleteApp3d.Checked = true;
@@ -420,9 +420,9 @@ namespace DWS_Lite
             this.checkBoxDeleteApp3d.TabIndex = 8;
             this.checkBoxDeleteApp3d.Text = "Delete Builder 3D";
             this.checkBoxDeleteApp3d.UseVisualStyleBackColor = false;
-            // 
+            //
             // checkBoxDeleteWindows10Apps
-            // 
+            //
             this.checkBoxDeleteWindows10Apps.AutoSize = true;
             this.checkBoxDeleteWindows10Apps.BackColor = System.Drawing.Color.Transparent;
             this.checkBoxDeleteWindows10Apps.Location = new System.Drawing.Point(6, 125);
@@ -433,9 +433,9 @@ namespace DWS_Lite
             this.checkBoxDeleteWindows10Apps.Text = "Delete windows 10 metro apps";
             this.checkBoxDeleteWindows10Apps.UseVisualStyleBackColor = false;
             this.checkBoxDeleteWindows10Apps.CheckedChanged += new System.EventHandler(this.checkBoxDeleteWindows10Apps_CheckedChanged);
-            // 
+            //
             // checkBoxSPYTasks
-            // 
+            //
             this.checkBoxSPYTasks.AutoSize = true;
             this.checkBoxSPYTasks.BackColor = System.Drawing.Color.Transparent;
             this.checkBoxSPYTasks.Checked = true;
@@ -448,9 +448,9 @@ namespace DWS_Lite
             this.checkBoxSPYTasks.Text = "Disable SPY tasks";
             this.checkBoxSPYTasks.UseVisualStyleBackColor = false;
             this.checkBoxSPYTasks.Visible = false;
-            // 
+            //
             // checkBoxSetDefaultPhoto
-            // 
+            //
             this.checkBoxSetDefaultPhoto.AutoSize = true;
             this.checkBoxSetDefaultPhoto.BackColor = System.Drawing.Color.Transparent;
             this.checkBoxSetDefaultPhoto.Checked = true;
@@ -463,9 +463,9 @@ namespace DWS_Lite
             this.checkBoxSetDefaultPhoto.Text = "Set default windows photo viewer";
             this.checkBoxSetDefaultPhoto.UseVisualStyleBackColor = false;
             this.checkBoxSetDefaultPhoto.Visible = false;
-            // 
+            //
             // checkBoxDisableWindowsDefender
-            // 
+            //
             this.checkBoxDisableWindowsDefender.AutoSize = true;
             this.checkBoxDisableWindowsDefender.BackColor = System.Drawing.Color.Transparent;
             this.checkBoxDisableWindowsDefender.Checked = true;
@@ -478,9 +478,9 @@ namespace DWS_Lite
             this.checkBoxDisableWindowsDefender.Text = "Disable windows defender";
             this.checkBoxDisableWindowsDefender.UseVisualStyleBackColor = false;
             this.checkBoxDisableWindowsDefender.Visible = false;
-            // 
+            //
             // checkBoxDisablePrivateSettings
-            // 
+            //
             this.checkBoxDisablePrivateSettings.AutoSize = true;
             this.checkBoxDisablePrivateSettings.BackColor = System.Drawing.Color.Transparent;
             this.checkBoxDisablePrivateSettings.Checked = true;
@@ -493,9 +493,9 @@ namespace DWS_Lite
             this.checkBoxDisablePrivateSettings.Text = "Disable private settings";
             this.checkBoxDisablePrivateSettings.UseVisualStyleBackColor = false;
             this.checkBoxDisablePrivateSettings.Visible = false;
-            // 
+            //
             // checkBoxAddToHosts
-            // 
+            //
             this.checkBoxAddToHosts.AutoSize = true;
             this.checkBoxAddToHosts.BackColor = System.Drawing.Color.Transparent;
             this.checkBoxAddToHosts.Checked = true;
@@ -508,9 +508,9 @@ namespace DWS_Lite
             this.checkBoxAddToHosts.Text = "Add spy domains to hosts file, and block in Windows Firewall\r\n";
             this.checkBoxAddToHosts.UseVisualStyleBackColor = false;
             this.checkBoxAddToHosts.Visible = false;
-            // 
+            //
             // checkBoxKeyLoggerAndTelemetry
-            // 
+            //
             this.checkBoxKeyLoggerAndTelemetry.AutoSize = true;
             this.checkBoxKeyLoggerAndTelemetry.BackColor = System.Drawing.Color.Transparent;
             this.checkBoxKeyLoggerAndTelemetry.Checked = true;
@@ -523,9 +523,9 @@ namespace DWS_Lite
             this.checkBoxKeyLoggerAndTelemetry.Text = "Delete keylogger and telemetry";
             this.checkBoxKeyLoggerAndTelemetry.UseVisualStyleBackColor = false;
             this.checkBoxKeyLoggerAndTelemetry.Visible = false;
-            // 
+            //
             // checkBoxCreateSystemRestorePoint
-            // 
+            //
             this.checkBoxCreateSystemRestorePoint.AutoSize = true;
             this.checkBoxCreateSystemRestorePoint.BackColor = System.Drawing.Color.Transparent;
             this.checkBoxCreateSystemRestorePoint.Checked = true;
@@ -538,9 +538,9 @@ namespace DWS_Lite
             this.checkBoxCreateSystemRestorePoint.Text = "Create system restore point";
             this.checkBoxCreateSystemRestorePoint.UseVisualStyleBackColor = false;
             this.checkBoxCreateSystemRestorePoint.Visible = false;
-            // 
+            //
             // tabPageUtilites
-            // 
+            //
             this.tabPageUtilites.BackColor = System.Drawing.Color.White;
             this.tabPageUtilites.BackgroundImage = global::DWS_Lite.Properties.Resources.BGProgImg;
             this.tabPageUtilites.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -557,9 +557,9 @@ namespace DWS_Lite
             this.tabPageUtilites.Size = new System.Drawing.Size(445, 400);
             this.tabPageUtilites.TabIndex = 2;
             this.tabPageUtilites.Text = "Utilites";
-            // 
+            //
             // btnRemoveOldFirewallRules
-            // 
+            //
             this.btnRemoveOldFirewallRules.BackColor = System.Drawing.SystemColors.Control;
             this.btnRemoveOldFirewallRules.ForeColor = System.Drawing.Color.Green;
             this.btnRemoveOldFirewallRules.Location = new System.Drawing.Point(223, 207);
@@ -569,9 +569,9 @@ namespace DWS_Lite
             this.btnRemoveOldFirewallRules.Text = "Remove all old DWS firewall rules";
             this.btnRemoveOldFirewallRules.UseVisualStyleBackColor = false;
             this.btnRemoveOldFirewallRules.Click += new System.EventHandler(this.btnRemoveOldFirewallRules_Click);
-            // 
+            //
             // btnDeleteOneDrive
-            // 
+            //
             this.btnDeleteOneDrive.BackColor = System.Drawing.SystemColors.Control;
             this.btnDeleteOneDrive.ForeColor = System.Drawing.Color.Black;
             this.btnDeleteOneDrive.Location = new System.Drawing.Point(223, 32);
@@ -582,9 +582,9 @@ namespace DWS_Lite
             this.btnDeleteOneDrive.UseVisualStyleBackColor = false;
             this.btnDeleteOneDrive.Visible = false;
             this.btnDeleteOneDrive.Click += new System.EventHandler(this.btnDeleteOneDrive_Click);
-            // 
+            //
             // btnDeleteMetroAppsInfo
-            // 
+            //
             this.btnDeleteMetroAppsInfo.BackColor = System.Drawing.SystemColors.Control;
             this.btnDeleteMetroAppsInfo.ForeColor = System.Drawing.Color.Black;
             this.btnDeleteMetroAppsInfo.Location = new System.Drawing.Point(199, 32);
@@ -595,9 +595,9 @@ namespace DWS_Lite
             this.btnDeleteMetroAppsInfo.UseVisualStyleBackColor = false;
             this.btnDeleteMetroAppsInfo.Visible = false;
             this.btnDeleteMetroAppsInfo.Click += new System.EventHandler(this.btnDeleteMetroAppsInfo_Click);
-            // 
+            //
             // groupBoxWindowsUpdate
-            // 
+            //
             this.groupBoxWindowsUpdate.BackColor = System.Drawing.Color.Transparent;
             this.groupBoxWindowsUpdate.Controls.Add(this.btnEnableWindowsUpdate);
             this.groupBoxWindowsUpdate.Controls.Add(this.btnDisableWindowsUpdate);
@@ -607,9 +607,9 @@ namespace DWS_Lite
             this.groupBoxWindowsUpdate.TabIndex = 8;
             this.groupBoxWindowsUpdate.TabStop = false;
             this.groupBoxWindowsUpdate.Text = "Windows Update";
-            // 
+            //
             // btnEnableWindowsUpdate
-            // 
+            //
             this.btnEnableWindowsUpdate.BackColor = System.Drawing.SystemColors.Control;
             this.btnEnableWindowsUpdate.Location = new System.Drawing.Point(6, 20);
             this.btnEnableWindowsUpdate.Name = "btnEnableWindowsUpdate";
@@ -618,9 +618,9 @@ namespace DWS_Lite
             this.btnEnableWindowsUpdate.Text = "Enable Windows Update";
             this.btnEnableWindowsUpdate.UseVisualStyleBackColor = false;
             this.btnEnableWindowsUpdate.Click += new System.EventHandler(this.btnEnableWindowsUpdate_Click);
-            // 
+            //
             // btnDisableWindowsUpdate
-            // 
+            //
             this.btnDisableWindowsUpdate.BackColor = System.Drawing.SystemColors.Control;
             this.btnDisableWindowsUpdate.Location = new System.Drawing.Point(6, 49);
             this.btnDisableWindowsUpdate.Name = "btnDisableWindowsUpdate";
@@ -629,9 +629,9 @@ namespace DWS_Lite
             this.btnDisableWindowsUpdate.Text = "Disable Windows Update";
             this.btnDisableWindowsUpdate.UseVisualStyleBackColor = false;
             this.btnDisableWindowsUpdate.Click += new System.EventHandler(this.btnDisableWindowsUpdate_Click);
-            // 
+            //
             // groupBoxUACEdit
-            // 
+            //
             this.groupBoxUACEdit.BackColor = System.Drawing.Color.Transparent;
             this.groupBoxUACEdit.Controls.Add(this.btnEnableUac);
             this.groupBoxUACEdit.Controls.Add(this.btnDisableUac);
@@ -642,9 +642,9 @@ namespace DWS_Lite
             this.groupBoxUACEdit.TabStop = false;
             this.groupBoxUACEdit.Text = "UAC";
             this.groupBoxUACEdit.Visible = false;
-            // 
+            //
             // btnEnableUac
-            // 
+            //
             this.btnEnableUac.BackColor = System.Drawing.SystemColors.Control;
             this.btnEnableUac.Location = new System.Drawing.Point(6, 20);
             this.btnEnableUac.Name = "btnEnableUac";
@@ -653,9 +653,9 @@ namespace DWS_Lite
             this.btnEnableUac.Text = "Enable UAC";
             this.btnEnableUac.UseVisualStyleBackColor = false;
             this.btnEnableUac.Click += new System.EventHandler(this.btnEnableUac_Click);
-            // 
+            //
             // btnDisableUac
-            // 
+            //
             this.btnDisableUac.BackColor = System.Drawing.SystemColors.Control;
             this.btnDisableUac.Location = new System.Drawing.Point(6, 49);
             this.btnDisableUac.Name = "btnDisableUac";
@@ -664,9 +664,9 @@ namespace DWS_Lite
             this.btnDisableUac.Text = "Disable UAC";
             this.btnDisableUac.UseVisualStyleBackColor = false;
             this.btnDisableUac.Click += new System.EventHandler(this.btnDisableUac_Click);
-            // 
+            //
             // btnOpenAndEditHosts
-            // 
+            //
             this.btnOpenAndEditHosts.BackColor = System.Drawing.SystemColors.Control;
             this.btnOpenAndEditHosts.Location = new System.Drawing.Point(8, 3);
             this.btnOpenAndEditHosts.Name = "btnOpenAndEditHosts";
@@ -675,9 +675,9 @@ namespace DWS_Lite
             this.btnOpenAndEditHosts.Text = "Open and edit HOSTS file";
             this.btnOpenAndEditHosts.UseVisualStyleBackColor = false;
             this.btnOpenAndEditHosts.Click += new System.EventHandler(this.btnOpenAndEditHosts_Click);
-            // 
+            //
             // btnRestoreSystem
-            // 
+            //
             this.btnRestoreSystem.BackColor = System.Drawing.SystemColors.Control;
             this.btnRestoreSystem.Location = new System.Drawing.Point(223, 3);
             this.btnRestoreSystem.Name = "btnRestoreSystem";
@@ -686,9 +686,9 @@ namespace DWS_Lite
             this.btnRestoreSystem.Text = "Restore System";
             this.btnRestoreSystem.UseVisualStyleBackColor = false;
             this.btnRestoreSystem.Click += new System.EventHandler(this.btnRestoreSystem_Click);
-            // 
+            //
             // btnDeleteAllWindows10Apps
-            // 
+            //
             this.btnDeleteAllWindows10Apps.BackColor = System.Drawing.SystemColors.Control;
             this.btnDeleteAllWindows10Apps.ForeColor = System.Drawing.Color.Black;
             this.btnDeleteAllWindows10Apps.Location = new System.Drawing.Point(8, 32);
@@ -699,9 +699,9 @@ namespace DWS_Lite
             this.btnDeleteAllWindows10Apps.UseVisualStyleBackColor = false;
             this.btnDeleteAllWindows10Apps.Visible = false;
             this.btnDeleteAllWindows10Apps.Click += new System.EventHandler(this.btnDeleteAllWindows10Apps_Click);
-            // 
+            //
             // tabPageAbout
-            // 
+            //
             this.tabPageAbout.BackColor = System.Drawing.Color.White;
             this.tabPageAbout.BackgroundImage = global::DWS_Lite.Properties.Resources.BGProgImg;
             this.tabPageAbout.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -717,9 +717,9 @@ namespace DWS_Lite
             this.tabPageAbout.Size = new System.Drawing.Size(445, 400);
             this.tabPageAbout.TabIndex = 3;
             this.tabPageAbout.Text = "About";
-            // 
+            //
             // groupBoxLanguage
-            // 
+            //
             this.groupBoxLanguage.BackColor = System.Drawing.Color.Transparent;
             this.groupBoxLanguage.Controls.Add(this.comboBoxLanguageSelect);
             this.groupBoxLanguage.Location = new System.Drawing.Point(221, 248);
@@ -728,9 +728,9 @@ namespace DWS_Lite
             this.groupBoxLanguage.TabIndex = 12;
             this.groupBoxLanguage.TabStop = false;
             this.groupBoxLanguage.Text = "Language\\Язык";
-            // 
+            //
             // comboBoxLanguageSelect
-            // 
+            //
             this.comboBoxLanguageSelect.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxLanguageSelect.FormattingEnabled = true;
             this.comboBoxLanguageSelect.Items.AddRange(new object[] {
@@ -742,15 +742,16 @@ namespace DWS_Lite
             "de-DE | German",
             "pl-PL | Polish",
             "it-CH | Italian",
-            "cs-CZ | Czech"});
+            "cs-CZ | Czech",
+            "zh-CN | 中文(简体)"});
             this.comboBoxLanguageSelect.Location = new System.Drawing.Point(6, 20);
             this.comboBoxLanguageSelect.Name = "comboBoxLanguageSelect";
             this.comboBoxLanguageSelect.Size = new System.Drawing.Size(202, 21);
             this.comboBoxLanguageSelect.TabIndex = 0;
             this.comboBoxLanguageSelect.SelectedIndexChanged += new System.EventHandler(this.comboBoxLanguageSelect_SelectedIndexChanged);
-            // 
+            //
             // btnReportABug
-            // 
+            //
             this.btnReportABug.BackColor = System.Drawing.Color.Transparent;
             this.btnReportABug.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReportABug.Location = new System.Drawing.Point(8, 279);
@@ -760,9 +761,9 @@ namespace DWS_Lite
             this.btnReportABug.Text = "Report a bug";
             this.btnReportABug.UseVisualStyleBackColor = false;
             this.btnReportABug.Click += new System.EventHandler(this.btnReportABug_Click);
-            // 
+            //
             // linkLabelOtherThanks
-            // 
+            //
             this.linkLabelOtherThanks.AutoSize = true;
             this.linkLabelOtherThanks.BackColor = System.Drawing.Color.Transparent;
             this.linkLabelOtherThanks.Location = new System.Drawing.Point(188, 207);
@@ -772,9 +773,9 @@ namespace DWS_Lite
             this.linkLabelOtherThanks.TabStop = true;
             this.linkLabelOtherThanks.Text = "Other thanks";
             this.linkLabelOtherThanks.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabelOtherThanks_LinkClicked);
-            // 
+            //
             // groupBoxLinks
-            // 
+            //
             this.groupBoxLinks.BackColor = System.Drawing.Color.Transparent;
             this.groupBoxLinks.Controls.Add(this.linkLabel6);
             this.groupBoxLinks.Controls.Add(this.linkLabelSourceCode);
@@ -789,9 +790,9 @@ namespace DWS_Lite
             this.groupBoxLinks.TabIndex = 8;
             this.groupBoxLinks.TabStop = false;
             this.groupBoxLinks.Text = "Links";
-            // 
+            //
             // linkLabel6
-            // 
+            //
             this.linkLabel6.AutoSize = true;
             this.linkLabel6.BackColor = System.Drawing.Color.Transparent;
             this.linkLabel6.Location = new System.Drawing.Point(6, 17);
@@ -801,9 +802,9 @@ namespace DWS_Lite
             this.linkLabel6.TabStop = true;
             this.linkLabel6.Text = "dws.wzor.net";
             this.linkLabel6.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel6_LinkClicked);
-            // 
+            //
             // linkLabelSourceCode
-            // 
+            //
             this.linkLabelSourceCode.AutoSize = true;
             this.linkLabelSourceCode.BackColor = System.Drawing.Color.Transparent;
             this.linkLabelSourceCode.Location = new System.Drawing.Point(69, 37);
@@ -813,9 +814,9 @@ namespace DWS_Lite
             this.linkLabelSourceCode.TabStop = true;
             this.linkLabelSourceCode.Text = "Source code on GitHub";
             this.linkLabelSourceCode.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabelSourceCode_LinkClicked);
-            // 
+            //
             // linkLabel1
-            // 
+            //
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.BackColor = System.Drawing.Color.Transparent;
             this.linkLabel1.Location = new System.Drawing.Point(117, 17);
@@ -825,9 +826,9 @@ namespace DWS_Lite
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "@nummerok";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
-            // 
+            //
             // linkLabel5
-            // 
+            //
             this.linkLabel5.AutoSize = true;
             this.linkLabel5.BackColor = System.Drawing.Color.Transparent;
             this.linkLabel5.Location = new System.Drawing.Point(191, 37);
@@ -837,9 +838,9 @@ namespace DWS_Lite
             this.linkLabel5.TabStop = true;
             this.linkLabel5.Text = "Тема на rutracker.org";
             this.linkLabel5.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel5_LinkClicked);
-            // 
+            //
             // linkLabel4
-            // 
+            //
             this.linkLabel4.AutoSize = true;
             this.linkLabel4.BackColor = System.Drawing.Color.Transparent;
             this.linkLabel4.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -850,9 +851,9 @@ namespace DWS_Lite
             this.linkLabel4.TabStop = true;
             this.linkLabel4.Text = "Thread on MDL forum";
             this.linkLabel4.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel4_LinkClicked);
-            // 
+            //
             // linkLabel2
-            // 
+            //
             this.linkLabel2.AutoSize = true;
             this.linkLabel2.BackColor = System.Drawing.Color.Transparent;
             this.linkLabel2.Location = new System.Drawing.Point(189, 17);
@@ -862,9 +863,9 @@ namespace DWS_Lite
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "wzor.net";
             this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
-            // 
+            //
             // linkLabel3
-            // 
+            //
             this.linkLabel3.AutoSize = true;
             this.linkLabel3.BackColor = System.Drawing.Color.Transparent;
             this.linkLabel3.Location = new System.Drawing.Point(245, 17);
@@ -874,9 +875,9 @@ namespace DWS_Lite
             this.linkLabel3.TabStop = true;
             this.linkLabel3.Text = "Best windows activator (KMS Auto)";
             this.linkLabel3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel3_LinkClicked);
-            // 
+            //
             // label1
-            // 
+            //
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.Location = new System.Drawing.Point(173, 0);
@@ -885,9 +886,9 @@ namespace DWS_Lite
             this.label1.TabIndex = 6;
             this.label1.Text = "Сделано на другой стороне луны ®";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
+            //
             // About_Info
-            // 
+            //
             this.About_Info.BackColor = System.Drawing.Color.Transparent;
             this.About_Info.Font = new System.Drawing.Font("Consolas", 12F);
             this.About_Info.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
@@ -899,9 +900,9 @@ namespace DWS_Lite
             this.About_Info.Text = "\r\nCreated by Nummer (@nummerok)\r\n\r\n©WZT\r\n\r\nThanks: @WZorNET , @MicrosoftInside ,\r" +
     "\n@rgadguard, @DiamondMonday, @Ratiborus58";
             this.About_Info.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
+            //
             // labelBuildDataTime
-            // 
+            //
             this.labelBuildDataTime.AutoSize = true;
             this.labelBuildDataTime.BackColor = System.Drawing.Color.Transparent;
             this.labelBuildDataTime.Location = new System.Drawing.Point(6, 315);
@@ -909,9 +910,9 @@ namespace DWS_Lite
             this.labelBuildDataTime.Size = new System.Drawing.Size(32, 13);
             this.labelBuildDataTime.TabIndex = 0;
             this.labelBuildDataTime.Text = "Build ";
-            // 
+            //
             // tabPageReadMe
-            // 
+            //
             this.tabPageReadMe.Controls.Add(this.ReadmeRichTextBox);
             this.tabPageReadMe.Location = new System.Drawing.Point(4, 22);
             this.tabPageReadMe.Name = "tabPageReadMe";
@@ -919,9 +920,9 @@ namespace DWS_Lite
             this.tabPageReadMe.TabIndex = 4;
             this.tabPageReadMe.Text = "ReadME";
             this.tabPageReadMe.UseVisualStyleBackColor = true;
-            // 
+            //
             // ReadmeRichTextBox
-            // 
+            //
             this.ReadmeRichTextBox.BackColor = System.Drawing.Color.White;
             this.ReadmeRichTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.ReadmeRichTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -931,9 +932,9 @@ namespace DWS_Lite
             this.ReadmeRichTextBox.Size = new System.Drawing.Size(445, 400);
             this.ReadmeRichTextBox.TabIndex = 0;
             this.ReadmeRichTextBox.Text = "";
-            // 
+            //
             // tabPageLicense
-            // 
+            //
             this.tabPageLicense.BackgroundImage = global::DWS_Lite.Properties.Resources.BGProgImg;
             this.tabPageLicense.Controls.Add(this.linkLabelLicense);
             this.tabPageLicense.Controls.Add(this.labelLicense);
@@ -943,9 +944,9 @@ namespace DWS_Lite
             this.tabPageLicense.TabIndex = 5;
             this.tabPageLicense.Text = "License";
             this.tabPageLicense.UseVisualStyleBackColor = true;
-            // 
+            //
             // linkLabelLicense
-            // 
+            //
             this.linkLabelLicense.AutoSize = true;
             this.linkLabelLicense.Location = new System.Drawing.Point(32, 64);
             this.linkLabelLicense.Name = "linkLabelLicense";
@@ -954,18 +955,18 @@ namespace DWS_Lite
             this.linkLabelLicense.TabStop = true;
             this.linkLabelLicense.Text = "http://www.apache.org/licenses/LICENSE-2.0";
             this.linkLabelLicense.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabelLicense_LinkClicked);
-            // 
+            //
             // labelLicense
-            // 
+            //
             this.labelLicense.AutoSize = true;
             this.labelLicense.Location = new System.Drawing.Point(8, 11);
             this.labelLicense.Name = "labelLicense";
             this.labelLicense.Size = new System.Drawing.Size(405, 143);
             this.labelLicense.TabIndex = 0;
             this.labelLicense.Text = resources.GetString("labelLicense.Text");
-            // 
+            //
             // DestroyWindowsSpyingMainForm
-            // 
+            //
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;

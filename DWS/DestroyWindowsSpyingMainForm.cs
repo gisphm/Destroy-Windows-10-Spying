@@ -222,6 +222,11 @@ namespace DWS_Lite
                 _rm = cs_CZ.ResourceManager;
                 comboBoxLanguageSelect.Text = @"cs-CZ | Czech";
             }
+            else if (currentlang.IndexOf("cn", StringComparison.Ordinal) > -1)
+            {
+                _rm = zh_CN.ResourceManager;
+                comboBoxLanguageSelect.Text = @"zh-CN | 中文(简体)";
+            }
             else
             {
                 _rm = en_US.ResourceManager;
@@ -1264,6 +1269,11 @@ namespace DWS_Lite
             else if (comboBoxLanguageSelect.Text.Split('|')[0].Replace(" ", "") == "cs-CZ")
             {
                 _rm = cs_CZ.ResourceManager;
+                ChangeLanguage();
+            }
+            else if (comboBoxLanguageSelect.Text.Split('|')[0].Replace(" ", "") == "zh-CN")
+            {
+                _rm = zh_CN.ResourceManager;
                 ChangeLanguage();
             }
             else
