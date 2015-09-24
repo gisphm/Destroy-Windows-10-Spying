@@ -246,6 +246,6 @@
 重要！参数 /destroy and /deleteapp= 不能同时使用，且参数 /deleteapp= 不能多次使用。</value>
   </data>
   <data name="FindOffice16FileT" xml:space="preserve">
-    <value>Please specify the path to the file msosync.exe. If Office 2016 is installed as standard on the drive C, press "Cancel"</value>
+    <value>请指定文件 msosync.exe 的路径。如果 Office 2016 是标准安装在 C 盘的话，直接点击 "Cancel"。</value>
   </data>
 </root>
