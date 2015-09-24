@@ -248,4 +248,7 @@ Voici les arugments utilisable en ligne de commande:
 /destroy - L'argument permettant la suppression des Spyware.
 ATTENTION! Les arguments /destroy et /deleteapp= ne peuvent pas être utilisé en même temps, et l'argument /deleteapp= ne peut pas être utilisé plusieur fois.</value>
   </data>
+  <data name="FindOffice16FileT" xml:space="preserve">
+    <value>Please specify the path to the file msosync.exe. If Office 2016 is installed as standard on the drive C, press "Cancel"</value>
+  </data>
 </root>
